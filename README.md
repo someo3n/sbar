@@ -24,3 +24,5 @@ blocks:
   - interval: 10
     command: [ "bar-clock" ]
 ```
+
+> `command` does not spawn a shell, but it does respect `PATH`
